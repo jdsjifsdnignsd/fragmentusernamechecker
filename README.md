@@ -1,4 +1,5 @@
 # Fragment Username Checker
+## Vibecoded so don't question some parts of the code (i abandoned using proxies but it PROBABLY works)
 
 A small Node.js script that scans potential Fragment (fragment.com) usernames and notifies you via Telegram when a username is listed for sale/auction and its USD value (based on live TON price) is below a configured threshold.
 
