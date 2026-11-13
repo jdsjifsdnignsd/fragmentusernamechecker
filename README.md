@@ -44,14 +44,14 @@ Dependencies:
 - fragmentusernamechecker/
   - README.md
   - package.json
-  - index.js            <-- main script
+  - FragmentChecker.js  <-- main script
   - input.txt           <-- newline-separated candidate usernames
   - matching.txt        <-- script appends matches here
   - .env                <-- (optional) environment file (DO NOT commit secrets)
   - /logs               <-- (optional) store logs or rotate output
 
 Notes:
-- The main script is `index.js`.
+- The main script is `FragmentChecker.js`.
 - Ensure `input.txt` is UTF-8 and contains one username per line.
 
 ---
@@ -100,7 +100,7 @@ username | {price} TON | ${usd value}
 3. Make sure `TELEGRAM_TOKEN` and `TELEGRAM_CHAT_ID` are set in the script or environment.
 
 4. Run:
- node index.js
+ node FragmentChecker.js
 
 The script will:
 - fetch TON/USD rate,
@@ -144,7 +144,7 @@ The script will:
 
 - Script exits early / crashes:
 - Ensure Node version is recent.
-- Run `node index.js` and inspect console errors.
+- Run `node FragmentChecker.js` and inspect console errors.
 - Add try/catch or more verbose logging if needed.
 
 ---

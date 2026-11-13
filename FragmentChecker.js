@@ -5,8 +5,8 @@ const { JSDOM } = require('jsdom');
 const INPUT_FILE = "input.txt";
 const OUTPUT_FILE = "matching.txt";
 
-const TELEGRAM_TOKEN = ""; 
-const TELEGRAM_CHAT_ID = ""; 
+const TELEGRAM_TOKEN = "[ENTER BOT TOKEN HERE]"; 
+const TELEGRAM_CHAT_ID = "[ENTER CHAT ID HERE]"; 
 
 const USD_FILTER_LIMIT = 10000; 
 
